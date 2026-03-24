@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install requests
-      - run: python3 nextriq_discord_v3.py
+      - run: python3 nextriq_discord_v3-2.py
         env:
           BOT_TOKEN: ${{ secrets.NEXTRIQ_BOT }}
           SERVER_ID: ${{ secrets.SERVER_ID }}
